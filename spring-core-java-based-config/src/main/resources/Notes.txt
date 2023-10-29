@@ -1,0 +1,20 @@
+The Project Details
+
+Add these to get Spring Core features (@Configuration, @Bean, ApplicationContext):
+    - Spring Core Maven Dependency
+    - Spring Context Maven Dependency
+
+"org.spring.core.tightCoupling" package demonstrates tight coupling
+    - Car, Bike classes can be used by Traveller
+    - But switching between the classes requires creation and injection manually
+
+"org.spring.core.looseCouplingUsingInterface" package demonstrates loose coupling
+    - Vehicle interface abstracts Car and Bike
+    - Traveller uses this interface object, so no tight coupling
+    - Main class needs to create object and pass to Traveller object
+
+"org.spring.core.iocUsingJavaConfig" demonstrates Java Based Config for IOC Container
+    - Create Configuration class and annotate with @Configuration
+    - Methods returning objects are created and annotated with @Bean
+    - The object to be injected is specified in the Configuration class
+    - ApplicationContext container is created to retrieve Spring Beans
