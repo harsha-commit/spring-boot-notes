@@ -1,0 +1,16 @@
+The Project Details
+
+Steps for Annotation Based Config:
+    - Annotate the configuration class with @Configuration
+    - Use @ComponentScan to specify package name that has @Component classes
+    - Use @Autowired to automatically inject the beans
+    - Use @Qualifier to avoid the confusion between same Spring Bean types
+    - Use IOC container to retrieve Spring beans
+
+Stereotype Annotations:
+    - Used to create Spring beans automatically in the IOC
+    - The main stereotype annotation is @Component
+    - Spring provides more Stereotype meta annotations (@Service, @Repository, @Controller)
+    - @Service for Service layer
+    - @Repository for DAO layer
+    - @Controller for Controller layer
