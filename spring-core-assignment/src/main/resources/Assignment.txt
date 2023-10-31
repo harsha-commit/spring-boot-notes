@@ -1,0 +1,6 @@
+Assignment:
+    - Create DataSource Interface with getEmails method
+    - Create two classes implementing Datasource (MySQLDataSource and PostgresSQLDataSource)
+    - Create EmailService class with a method sendEmails that uses DataSource object
+    - Create Client class that calls EmailServices' sendEmails method
+    - Achieve this using Annotation Based and Java Based Dependency Injection
